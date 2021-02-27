@@ -27,6 +27,7 @@ class Artist
   def genres
     songs.map {|song| song.genre}
   end
+
 end
 
 # jay_z = Artist.new("Jay-Z")
